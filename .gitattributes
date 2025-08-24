@@ -1,0 +1,19 @@
+# Normalize line endings
+* text=auto
+
+# Treat all JavaScript, CSS, HTML files as text
+*.js text
+*.css text
+*.html text
+
+# Images are binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# GitHub Linguist language override (optional)
+*.css linguist-language=CSS
+*.js linguist-language=JavaScript
+*.html linguist-language=HTML
